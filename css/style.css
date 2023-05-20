@@ -1,0 +1,50 @@
+@import url(./reset.css);
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f1f1ed;
+    font-size: 1.25rem;
+}
+.wrapper {
+    min-height: 100%;
+    position: relative;
+    overflow: clip;
+}
+.page {
+}
+.page__main-screen {
+}
+.main-screen {
+}
+.main-screen__trees {
+}
+.main-screen__trees_6 {
+}
+.main-screen__trees_5 {
+}
+.main-screen__trees_4 {
+}
+.main-screen__trees_3 {
+}
+.main-screen__trees_2 {
+}
+.main-screen__trees_1 {
+}
+.main-screen__birds {
+}
+.main-screen__birds_1 {
+}
+.main-screen__birds_2 {
+}
+.main-screen__mountains {
+}
+.page__content {
+}
+.content {
+}
+.content__container {
+}
+.content__title {
+}
+.content__body {
+}
