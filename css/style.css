@@ -10,10 +10,6 @@ body {
     position: relative;
     overflow: clip;
 }
-.page {
-}
-.page__main-screen {
-}
 .main-screen {
     position: fixed;
     width: 100%;
@@ -92,8 +88,6 @@ body {
     background: url(../img/mountains.svg) center / auto 80% repeat-x;
 }
 /* Content */
-.page__content {
-}
 .content {
     padding-top: 200vh;
 }
