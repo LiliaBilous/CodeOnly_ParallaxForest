@@ -20,6 +20,7 @@ body {
     height: 100%;
     top: 0;
     left: 0;
+    pointer-events: none;
 }
 /* Trees */
 .main-screen__trees,
@@ -30,6 +31,7 @@ body {
     top: 0;
     left: 0;
     z-index: 3;
+    will-change: transform;
 }
 .main-screen__trees_6 span {
     background: url(../img/trees-06.svg) bottom / auto 100% repeat-x;
@@ -52,7 +54,7 @@ body {
 /* Birds */
 .main-screen__birds {
     position: absolute;
-    z-index: 2;
+    z-index: 4;
 }
 .main-screen__birds span { 
     display: block;
@@ -98,7 +100,7 @@ body {
 .content__container {
     margin: 0 auto;
     max-width: 75rem;
-    padding: 3.125rem .9375rem 5.125rem .9375rem;
+    padding: 3.5rem;
 }
 .content__title {
     text-transform: uppercase;
@@ -157,4 +159,13 @@ body {
 .loaded .main-screen__birds_2 span {
     transform: translate(0px, 0px);
     transition: transform 0.8s ease 2.3s;
+}
+@media (max-width:400px) {
+    body {
+        font-size: 1rem;
+    }
+    .content__title {
+        font-size: 2rem;
+    }
+    
 }
